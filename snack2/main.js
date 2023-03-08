@@ -27,3 +27,7 @@ const francesca = createStudent(120, 'Francesca Da Polenta', 84);
 // Li Appendo ad un array
 const students = [marco, paola, andrea, gaia, luigi, piero,francesca];
 console.log("Students", students);
+
+// Studenti in maiuscolo
+const uppercaseStudents = students.map((student) => student.name.toUpperCase());
+console.log("Uppercase Students", uppercaseStudents);
