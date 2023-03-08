@@ -35,3 +35,14 @@ console.log("Uppercase Students", uppercaseStudents);
 // Studenti con grade > 70
 const upper70Students = students.filter((student) => student.grade > 70);
 console.log(upper70Students);
+
+// Studenti con grado > 70 e id > 120
+
+// Verifico la condizione richiesta
+function filterByGradeAndId(student) {
+    if (student.grade > 70 && student.id > 120) {
+        return true;
+    }
+
+    return false;
+}
