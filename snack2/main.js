@@ -31,3 +31,7 @@ console.log("Students", students);
 // Studenti in maiuscolo
 const uppercaseStudents = students.map((student) => student.name.toUpperCase());
 console.log("Uppercase Students", uppercaseStudents);
+
+// Studenti con grade > 70
+const upper70Students = students.filter((student) => student.grade > 70);
+console.log(upper70Students);
