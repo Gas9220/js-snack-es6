@@ -1,5 +1,8 @@
 'use strict';
 
+console.log("Snack 1 ---------------------------------------------");
+
+
 //------------- Funtions -------------------
 
 // Funzione che facilita la creazione di un singolo invitato

@@ -1,5 +1,7 @@
 'use strict';
 
+console.log("Snack 2 ---------------------------------------------");
+
 //------------- Funtions -------------------
 
 // Funzione che facilita la creazione di un singolo studente
@@ -34,7 +36,7 @@ console.log("Uppercase Students", uppercaseStudents);
 
 // Studenti con grade > 70
 const upper70Students = students.filter((student) => student.grade > 70);
-console.log(upper70Students);
+console.log("Grade+70 Students", upper70Students);
 
 // Studenti con grado > 70 e id > 120
 // Verifico la condizione richiesta
@@ -47,4 +49,4 @@ function filterByGradeAndId(student) {
 }
 
 const gradeAndIdStudents = students.filter(filterByGradeAndId);
-console.log(gradeAndIdStudents);
+console.log("Grade and id Students", gradeAndIdStudents);
