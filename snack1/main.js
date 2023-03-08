@@ -27,3 +27,12 @@ let maneskin = [createGuest("Damiano David"), createGuest("Victoria De Angelis")
 let guests = [bradPitt, johnnyDepp, ladyGaga, cristianoRonaldo, georginaRodriguez, chiaraFerragni, fedez, georgeClooney, amalClooney, maneskin];
 
 console.log(guests)
+
+
+guests.forEach((guest, index) => {
+    if (index < guests.length - 1) {
+        guest.table = "Vip",
+        guest.seat = index + 1
+        console.log(`${guest.name} is seated in the ${guest.table} table at ${guest.seat} position`);
+    }
+});
