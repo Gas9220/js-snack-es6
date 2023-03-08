@@ -34,5 +34,12 @@ guests.forEach((guest, index) => {
         guest.table = "Vip",
         guest.seat = index + 1
         console.log(`${guest.name} is seated in the ${guest.table} table at ${guest.seat} position`);
+    } else {
+        guests[guests.length - 1].forEach((guest, index) => {
+            guest.table = "Vip",
+            guest.seat = guests.length + index
+            console.log(`Maneskin - ${guest.name} is seated in the ${guest.table} table at ${guest.seat} position`);
+
+        });
     }
 });
