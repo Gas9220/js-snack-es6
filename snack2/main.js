@@ -23,3 +23,7 @@ const gaia = createStudent(145, 'Gaia Borromini', 74);
 const luigi = createStudent(196, 'Luigi Grimaldello', 68);
 const piero = createStudent(102, 'Piero Della Francesca', 50);
 const francesca = createStudent(120, 'Francesca Da Polenta', 84);
+
+// Li Appendo ad un array
+const students = [marco, paola, andrea, gaia, luigi, piero,francesca];
+console.log("Students", students);
