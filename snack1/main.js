@@ -23,3 +23,7 @@ let fedez = createGuest("Fedez");
 let georgeClooney = createGuest("George Clooney");
 let amalClooney = createGuest("Amal Clooney");
 let maneskin = [createGuest("Damiano David"), createGuest("Victoria De Angelis"), createGuest("Thomas Raggi"), createGuest("Ethan Torchio")];
+
+let guests = [bradPitt, johnnyDepp, ladyGaga, cristianoRonaldo, georginaRodriguez, chiaraFerragni, fedez, georgeClooney, amalClooney, maneskin];
+
+console.log(guests)
