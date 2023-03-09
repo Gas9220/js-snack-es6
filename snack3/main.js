@@ -22,3 +22,6 @@ const bianchiSprint = createBike("Bianchi Sprint", 8.2);
 const treckEmonda = createBike("Treck Emonda", 9.7);
 const cannondale = createBike("Cannondale Carbon", 7.4);
 const bmcRoad = createBike("BMC Roadmachine", 11);
+
+// Creo l'array che contiene le biciclette
+const bicycles = [scottSpeedster, canyonGrail, giantAdvanced, bianchiSprint, treckEmonda, cannondale, bmcRoad];
