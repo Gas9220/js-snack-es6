@@ -34,3 +34,7 @@ const bmcRoad = createBike("BMC Roadmachine", 11);
 
 // Creo l'array che contiene le biciclette
 const bicycles = [scottSpeedster, canyonGrail, giantAdvanced, bianchiSprint, treckEmonda, cannondale, bmcRoad];
+
+// Trovo la bicicletta con il peso minore
+const lighterBike = searchLighterBike(bicycles);
+console.log(lighterBike);
