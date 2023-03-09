@@ -13,8 +13,29 @@ function createTeam(teamName) {
     return team;
 }
 
-// -------------------------------------------
+// Funzione che genera un numero casuale (Thanks MDN)
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
+// Funzione che aggiunge punti e falli casuali
+function randomStats(teams) {
+    const updatedTeams = structuredClone(teams)
+
+    updatedTeams.forEach(team => {
+        const randomScore = getRandomInt(1, 500);
+        const randomFouls = getRandomInt(1, 100);
+
+        team.points = randomScore;
+        team.fouls = randomFouls;
+    });
+
+    return updatedTeams;
+}
+
+// -------------------------------------------
 
 // Creo i team
 const real = createTeam("Real Madrid");
