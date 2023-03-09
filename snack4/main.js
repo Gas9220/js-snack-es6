@@ -14,3 +14,12 @@ function createTeam(teamName) {
 }
 
 // -------------------------------------------
+
+
+// Creo i team
+const real = createTeam("Real Madrid");
+const manchester = createTeam("Manchester United");
+const paris = createTeam("Paris Saint German");
+const rome = createTeam("Roma");
+const ajax = createTeam("Ajax");
+const celtic = createTeam("Celtic");
