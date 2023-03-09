@@ -70,3 +70,7 @@ console.log("Teams", teams)
 // Creo un nuovo array con i valori modificati
 const updatedTeams = randomStats(teams);
 console.log("Updated Teams", updatedTeams);
+
+// Array team con sole proprietà nome e falli
+const deconstructedTeams = deconstructTeam(updatedTeams);
+console.log("Deconstructed Teams", deconstructedTeams);
