@@ -48,3 +48,7 @@ const celtic = createTeam("Celtic");
 // Aggiungo i team all'array
 const teams = [real, manchester, paris, rome, ajax, celtic];
 console.log("Teams", teams)
+
+// Creo un nuovo array con i valori modificati
+const updatedTeams = randomStats(teams);
+console.log("Updated Teams", updatedTeams);
