@@ -12,6 +12,15 @@ function createBike(model, weight) {
     return bike;
 }
 
+// Funzione che permette di trovare la bici con il peso minore
+function searchLighterBike(bicycles) {
+    const lighter = bicycles.reduce(function(prevBike, currentBike) {
+        return (prevBike.weight < currentBike.weight) ? prevBike : currentBike;
+     });
+ 
+     return lighter;
+ }
+
 // -------------------------------------------
 
 // Creo le biciclette
