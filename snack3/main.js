@@ -42,4 +42,6 @@ console.log(lighterBike);
 // Destructuring 
 const {model} = lighterBike;
 const {weight} = lighterBike;
-console.log(weight)
+
+// stampo in console
+console.log(`Our lighter bike is ${model} and it's weight is ${weight}kg`);

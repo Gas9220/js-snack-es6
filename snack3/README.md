@@ -9,4 +9,4 @@ Stampare in console la bici con peso minore utilizzando destructuring e template
 4. Creo una funzione che mi aiuta a cercare la bicicletta più leggera
 5. Creo una constante che contiene la bicicletta che pesa meno tramite la funzione sopra creata
 6. Faccio il destructuring della bicicletta ottenuta
-7. Stampo in console usando il template literal 
+7. Stampo in console usando il template literal
