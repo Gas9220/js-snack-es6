@@ -38,3 +38,8 @@ const bicycles = [scottSpeedster, canyonGrail, giantAdvanced, bianchiSprint, tre
 // Trovo la bicicletta con il peso minore
 const lighterBike = searchLighterBike(bicycles);
 console.log(lighterBike);
+
+// Destructuring 
+const {model} = lighterBike;
+const {weight} = lighterBike;
+console.log(weight)
