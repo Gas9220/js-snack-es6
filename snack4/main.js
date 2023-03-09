@@ -35,6 +35,24 @@ function randomStats(teams) {
     return updatedTeams;
 }
 
+// Creo una funzione che fa il deconstructing sui team 
+function deconstructTeam(teams) {
+    const deconstructedTeams = [];
+
+    teams.forEach(team => {
+        const {teamName, fouls} = team;
+
+        const updatedTeam = {
+            teamName: teamName,
+            fouls: fouls
+        }
+
+        deconstructedTeams.push(updatedTeam);
+    });
+
+    return deconstructedTeams
+}
+
 // -------------------------------------------
 
 // Creo i team
